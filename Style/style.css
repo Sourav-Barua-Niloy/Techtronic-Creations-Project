@@ -94,8 +94,55 @@
   background-repeat: no-repeat;
   color: black;
 }
+.Service-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Service-description {
+  width: 50%;
+  margin-left: 50px;
+}
+.Service-images-details {
+  width: 50%;
+}
+.author-image {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.author {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
 .service-author {
   display: flex;
+  align-items: center;
+}
+.author-button {
+  border-left: 2px solid red;
+  padding-left: 20px;
+}
+.Service-images-up {
+  display: flex;
+}
+.Service-images-down {
+  display: flex;
+}
+.Service-Background {
+  width: 250px;
+  height: 200px;
+  padding: 50px;
+  margin: 10px;
+  background-color: #a29bfe;
+  box-shadow: 4px 4px 5px gray;
+  text-align: center;
+  border-radius: 10px;
+}
+.service-logo {
+  width: 50%;
+  padding-bottom: 20px;
 }
 /* service end here */
 /* main end here  */
